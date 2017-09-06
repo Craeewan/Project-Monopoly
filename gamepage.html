@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Monopoly-The Drinking Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="jquery-3.1.1.js"></script>
+    <script src="functions.js"></script>
+</head>
+
+<body>
+    <div class="container2 border">
+        <div class="gamecontainer border">
+            <div id="row1" class="row border">
+                <div class="cornerpiece pieces" id="corner1">
+                    <h2 class="innertext">GO!</h2>
+                    <!-- <div class="innerbox"></div> -->
+                </div>
+                <div class="pieces " id="title1">
+                    <h2 class="innertext">Jackson Heights</h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title2">
+                    <h2 class="innertext">Jackson Heights</h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title3">
+                    <h2 class="innertext"></h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title4">
+                    <h2 class="innertext">125th street</h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title5">
+                    <h2 class="innertext">125th street</h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title6">
+                    <h2 class="innertext"></h2>
+                    <div class="innerbox"></div>
+                </div>
+                <!-- <div class="pieces" id="title7"></div> -->
+                <div class="cornerpiece pieces" id="corner2">
+                    <h2 class="innertext">Jail!</h2>
+                    <!-- <div class="innerbox"></div> -->
+                </div>
+            </div>
+            <div id="row2" class="row border">
+                <div class="columnflex border" id="siderow2">
+                    <div class="pieces" id="title7">
+                        <h2 class="innertext">Chelsea</h2>
+                        <div class="innerbox"></div>
+                    </div>
+                    <div class="pieces" id="title8">
+                        <h2 class="innertext">Chelsea</h2>
+                        <div class="innerbox"></div>
+                    </div>
+                    <div class="pieces" id="title9">
+                        <h2 class="innertext"></h2>
+                        <div class="innerbox"></div>
+                    </div>
+                    <div class="pieces" id="title10">
+                        <h2 class="innertext"></h2>
+                        <div class="innerbox"></div>
+                    </div>
+                    <!--  <div class="pieces" id="title21"></div>
+              <div class="pieces" id="title22"></div> -->
+                    <!-- <div class="pieces" id="title23"></div> -->
+                </div>
+
+
+                <div class="columnflex border" id="innercontent">
+                    <div class="innerflex1">
+                        <div class="displayflex">
+                          <div class="moneybox"></div>
+                          <div class="shotbox"></div>
+                        </div>
+                    </div>
+                    <div class="innerflex2">
+                      <div class="diceflex">
+                        <div class="dicebox"></div>
+                      </div>
+                    </div>
+                    <div class="innerflex3">
+                        <div class="cardbox">
+                            <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="buyMoney1">Click Here!</button>
+                              <button class="cardbuttons" id="buyShot1">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="shotTax1">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="buyMoney2">Click Here!</button>
+                              <button class="cardbuttons" id="buyShot2">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="shotTax2">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="buyMoney3">Click Here!</button>
+                              <button class="cardbuttons" id="buyShot3">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="shotTax3">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="buyMoney4">Click Here!</button>
+                              <button class="cardbuttons" id="buyShot4">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="shotTax4">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="buyMoney5">Click Here!</button>
+                              <button class="cardbuttons" id="buyShot5">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="shotTax5">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="buyMoney6">Click Here!</button>
+                              <button class="cardbuttons" id="buyShot6">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="shotTax6">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="buyMoney7">Click Here!</button>
+                              <button class="cardbuttons" id="buyShot7">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="shotTax7">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="buyMoney8">Click Here!</button>
+                              <button class="cardbuttons" id="buyShot8">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="shotTax8">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="click21">Click Here!</button>
+                              <button class="cardbuttons" id="click22">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="click23">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="click24">Click Here!</button>
+                              <button class="cardbuttons" id="click25">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="click26">Click Here!</button>
+                              </div>
+                              </div>
+                              <div class="cards">
+                              <div class="cardflexrow1">
+                              <button class="cardbuttons" id="click27">Click Here!</button>
+                              <button class="cardbuttons" id="click28">Click Here!</button>
+                              </div>
+                              <div class="cardflexrow2">
+                              <button class="cardbuttons" id="click29">Click Here!</button>
+                              </div>
+                              </div>
+                        </div>
+                        <div class="playersbox">
+                          <div class="coin"></div>
+                          <div class="person"></div>
+                          <div class="bird"></div>
+                          <div class="horse"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columnflex" id="siderow1">
+                    <div class="pieces" id="title11">
+                        <h2 class="innertext"></h2>
+                    </div>
+                    <div class="pieces" id="title12">
+                        <h2 class="innertext"></h2>
+                    </div>
+                    <div class="pieces" id="title13">
+                        <h2 class="innertext">Upper West</h2>
+                    </div>
+                    <div class="pieces" id="title14">
+                        <h2 class="innertext">Upper West</h2>
+                    </div>
+                    <!-- <div class="pieces" id="title13"></div>
+                <div class="pieces" id="title14"></div>
+                <!-- <div class="pieces" id="title15"></div> -->
+                </div>
+            </div>
+            <div id="row3" class="row border">
+                <div class="cornerpiece pieces" id="corner3">
+                    <h2 class="innertext">Free Space</h2>
+                    <!-- <div class="innerbox"></div> -->
+                </div>
+                <div class="pieces" id="title15">
+                    <h2 class="innertext">Upper East Side</h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title16">
+                    <h2 class="innertext">Upper East side</h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title17">
+                    <h2 class="innertext"></h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title18">
+                    <h2 class="innertext">Park Ave</h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title19">
+                    <h2 class="innertext">Park Ave</h2>
+                    <div class="innerbox"></div>
+                </div>
+                <div class="pieces" id="title20">
+                    <h2 class="innertext"></h2>
+                    <div class="innerbox"></div>
+                </div>
+                <!--  <div class="pieces" id="title31"></div> -->
+                <div class="cornerpiece pieces" id="corner4">
+                    <h2 class="innertext">Go To Jail</h2>
+                    <!-- <div class="innerbox"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
