@@ -7,12 +7,56 @@ body {
     width: 100vw;
 }
 
-gameContainer {
-    /*height: 70%;
-    width: 70%;*/
+.gameContainer {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.spaces {
+    border-style: solid;
+    color: tan;
+}
+
+.flexRow1 {
+    border-style: solid;
+    flex: 1;
     display: flex;
 }
 
-innerContainer {
-    height:
+.flexRow2 {
+    border-style: solid;
+    flex: 5;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexCol1 {
+    border-style: solid;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flexCol2 {
+    border-style: solid;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.innerContainer {
+    display: flex;
+    flex: 5;
+}
+
+.flexRow3 {
+    border-style: solid;
+    flex: 1;
+    display: flex;
+    flex-direction: row-reverse;
 }
