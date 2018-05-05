@@ -7,7 +7,7 @@ body {
 
 /*LANDING*/
 
-.container1 {
+.landing-container {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -15,18 +15,29 @@ body {
   flex-direction: column;
 }
 
-.heading>h1 {
+.landing-heading>h1 {
   font-size: 32px;
-  color: white;
+  /* color: white; */
 }
 
-.content {}
+iframe{
+  width: 500px;
+  height: 500px;
+}
+.landing-content {
+  z-index: 5;
+  width: 600px;
+  height: 400px;
+  background: green;
+  position: absolute;
+  
+}
 
-.buttonflex {}
+.landing-buttonflex {}
 
-.landing {
-  width: 200px;
-  height: 100px;
+.landing-button {
+  width: 50px;
+  height: 20px;
   background-color: red;
   color: white;
 }
